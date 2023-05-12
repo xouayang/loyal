@@ -1,0 +1,12 @@
+/node_modules
+/yarn.lock
+/package-lock.json
+/.env
+/uploads/chats/*
+/uploads/documents/*
+/uploads/logos/*
+/uploads/policies/*
+/uploads/banners/*
+
+git rm -rf --cached .
+git add .
